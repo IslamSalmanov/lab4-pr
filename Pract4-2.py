@@ -1,0 +1,6 @@
+a=float(input("Первое число: "))
+b=float(input("Второе число: "))
+c=float(input("Третье число: "))
+if a>=b and a>=c: print(f"Максимальное: {a}")
+elif b>=a and b>=c: print(f"Макимальное: {b}")
+else: print(f"Максимальное: {c}")
